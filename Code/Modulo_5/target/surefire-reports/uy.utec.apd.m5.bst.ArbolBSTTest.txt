@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m5.bst.ArbolBSTTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.010 s <<< FAILURE! -- in uy.utec.apd.m5.bst.ArbolBSTTest
+uy.utec.apd.m5.bst.ArbolBSTTest.eliminarNodoConUnHijo -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.bst.ArbolBST.insertar(ArbolBST.java:33)
+	at uy.utec.apd.m5.bst.ArbolBSTTest.setUp(ArbolBSTTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.bst.ArbolBSTTest.eliminarInexistente -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.bst.ArbolBST.insertar(ArbolBST.java:33)
+	at uy.utec.apd.m5.bst.ArbolBSTTest.setUp(ArbolBSTTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.bst.ArbolBSTTest.arbolVacio -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.bst.ArbolBST.insertar(ArbolBST.java:33)
+	at uy.utec.apd.m5.bst.ArbolBSTTest.setUp(ArbolBSTTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.bst.ArbolBSTTest.minimoMaximoAlturaHojas -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.bst.ArbolBST.insertar(ArbolBST.java:33)
+	at uy.utec.apd.m5.bst.ArbolBSTTest.setUp(ArbolBSTTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.bst.ArbolBSTTest.recorridos -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.bst.ArbolBST.insertar(ArbolBST.java:33)
+	at uy.utec.apd.m5.bst.ArbolBSTTest.setUp(ArbolBSTTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.bst.ArbolBSTTest.eliminarHoja -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.bst.ArbolBST.insertar(ArbolBST.java:33)
+	at uy.utec.apd.m5.bst.ArbolBSTTest.setUp(ArbolBSTTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.bst.ArbolBSTTest.operacionesAleatoriasContraTreeSet -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.bst.ArbolBST.insertar(ArbolBST.java:33)
+	at uy.utec.apd.m5.bst.ArbolBSTTest.setUp(ArbolBSTTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.bst.ArbolBSTTest.eliminarNodoConDosHijosUsaElSucesor -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.bst.ArbolBST.insertar(ArbolBST.java:33)
+	at uy.utec.apd.m5.bst.ArbolBSTTest.setUp(ArbolBSTTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.bst.ArbolBSTTest.insertarYBuscar -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.bst.ArbolBST.insertar(ArbolBST.java:33)
+	at uy.utec.apd.m5.bst.ArbolBSTTest.setUp(ArbolBSTTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

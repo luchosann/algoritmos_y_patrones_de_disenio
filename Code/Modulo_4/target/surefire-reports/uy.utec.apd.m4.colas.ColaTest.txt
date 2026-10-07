@@ -1,0 +1,59 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m4.colas.ColaTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 5, Skipped: 0, Time elapsed: 0.017 s <<< FAILURE! -- in uy.utec.apd.m4.colas.ColaTest
+uy.utec.apd.m4.colas.ColaTest.secuenciaAleatoriaContraArrayDeque -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.colas.Cola.encolar(Cola.java:23)
+	at uy.utec.apd.m4.colas.ColaTest.secuenciaAleatoriaContraArrayDeque(ColaTest.java:72)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.colas.ColaTest.creceCuandoSeLlena -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.colas.Cola.encolar(Cola.java:23)
+	at uy.utec.apd.m4.colas.ColaTest.creceCuandoSeLlena(ColaTest.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.colas.ColaTest.fifo -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.colas.Cola.encolar(Cola.java:23)
+	at uy.utec.apd.m4.colas.ColaTest.fifo(ColaTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.colas.ColaTest.vacia -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.util.NoSuchElementException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at uy.utec.apd.m4.colas.ColaTest.vacia(ColaTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.colas.Cola.desencolar(Cola.java:30)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+uy.utec.apd.m4.colas.ColaTest.daLaVueltaAlArraySinPerderElOrden -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.colas.Cola.encolar(Cola.java:23)
+	at uy.utec.apd.m4.colas.ColaTest.daLaVueltaAlArraySinPerderElOrden(ColaTest.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.colas.ColaTest.binarios -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.colas.Binarios.generar(Binarios.java:18)
+	at uy.utec.apd.m4.colas.ColaTest.binarios(ColaTest.java:83)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

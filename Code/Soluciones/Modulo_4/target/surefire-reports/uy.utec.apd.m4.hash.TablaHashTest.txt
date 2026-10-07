@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m4.hash.TablaHashTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in uy.utec.apd.m4.hash.TablaHashTest

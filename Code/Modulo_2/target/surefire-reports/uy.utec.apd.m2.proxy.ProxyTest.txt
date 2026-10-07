@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m2.proxy.ProxyTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! -- in uy.utec.apd.m2.proxy.ProxyTest
+uy.utec.apd.m2.proxy.ProxyTest.elProxyDeProteccionBloqueaSinLlamarAlReal -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.proxy.CotizacionProteccionProxy.cotizar(CotizacionProteccionProxy.java:27)
+	at uy.utec.apd.m2.proxy.ProxyTest.elProxyDeProteccionBloqueaSinLlamarAlReal(ProxyTest.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.proxy.ProxyTest.elProxyDeLogRegistraExitosYErrores -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.proxy.CotizacionLogProxy.cotizar(CotizacionLogProxy.java:26)
+	at uy.utec.apd.m2.proxy.ProxyTest.elProxyDeLogRegistraExitosYErrores(ProxyTest.java:65)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.proxy.ProxyTest.elProxyCacheEvitaLlamadasRepetidas -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.proxy.CotizacionCacheProxy.cotizar(CotizacionCacheProxy.java:34)
+	at uy.utec.apd.m2.proxy.ProxyTest.elProxyCacheEvitaLlamadasRepetidas(ProxyTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.proxy.ProxyTest.losProxiesSeCombinan -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.proxy.CotizacionProteccionProxy.cotizar(CotizacionProteccionProxy.java:27)
+	at uy.utec.apd.m2.proxy.ProxyTest.losProxiesSeCombinan(ProxyTest.java:79)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.proxy.ProxyTest.laCacheVence -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.proxy.CotizacionCacheProxy.cotizar(CotizacionCacheProxy.java:34)
+	at uy.utec.apd.m2.proxy.ProxyTest.laCacheVence(ProxyTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.proxy.ProxyTest.invalidarVaciaLaCache -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.proxy.CotizacionCacheProxy.cotizar(CotizacionCacheProxy.java:34)
+	at uy.utec.apd.m2.proxy.ProxyTest.invalidarVaciaLaCache(ProxyTest.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

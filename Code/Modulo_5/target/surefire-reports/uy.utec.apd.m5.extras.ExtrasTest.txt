@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m5.extras.ExtrasTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! -- in uy.utec.apd.m5.extras.ExtrasTest
+uy.utec.apd.m5.extras.ExtrasTest.busquedas -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.extras.Extras.busquedaBinaria(Extras.java:15)
+	at uy.utec.apd.m5.extras.ExtrasTest.busquedas(ExtrasTest.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.extras.ExtrasTest.bits -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.extras.Extras.contarBitsEnUno(Extras.java:48)
+	at uy.utec.apd.m5.extras.ExtrasTest.bits(ExtrasTest.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.extras.ExtrasTest.intercambioXor -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.extras.Extras.intercambiarXor(Extras.java:60)
+	at uy.utec.apd.m5.extras.ExtrasTest.intercambioXor(ExtrasTest.java:71)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.extras.ExtrasTest.primeraOcurrenciaConDuplicados -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.extras.Extras.primeraOcurrencia(Extras.java:30)
+	at uy.utec.apd.m5.extras.ExtrasTest.primeraOcurrenciaConDuplicados(ExtrasTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.extras.ExtrasTest.conversiones -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.extras.Extras.aBinario(Extras.java:36)
+	at uy.utec.apd.m5.extras.ExtrasTest.conversiones(ExtrasTest.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

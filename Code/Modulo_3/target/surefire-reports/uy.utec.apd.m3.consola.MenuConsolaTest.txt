@@ -1,0 +1,66 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m3.consola.MenuConsolaTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! -- in uy.utec.apd.m3.consola.MenuConsolaTest
+uy.utec.apd.m3.consola.MenuConsolaTest.entradasInvalidas -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.fachada.GestionAcademicaFacade.enMemoria(GestionAcademicaFacade.java:36)
+	at uy.utec.apd.m3.consola.MenuConsolaTest.ejecutar(MenuConsolaTest.java:24)
+	at uy.utec.apd.m3.consola.MenuConsolaTest.entradasInvalidas(MenuConsolaTest.java:72)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m3.consola.MenuConsolaTest.altaYListadoDeCursos -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.fachada.GestionAcademicaFacade.enMemoria(GestionAcademicaFacade.java:36)
+	at uy.utec.apd.m3.consola.MenuConsolaTest.ejecutar(MenuConsolaTest.java:24)
+	at uy.utec.apd.m3.consola.MenuConsolaTest.altaYListadoDeCursos(MenuConsolaTest.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m3.consola.MenuConsolaTest.muestraElMenuYSale -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.fachada.GestionAcademicaFacade.enMemoria(GestionAcademicaFacade.java:36)
+	at uy.utec.apd.m3.consola.MenuConsolaTest.ejecutar(MenuConsolaTest.java:24)
+	at uy.utec.apd.m3.consola.MenuConsolaTest.muestraElMenuYSale(MenuConsolaTest.java:29)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m3.consola.MenuConsolaTest.siSeTerminaLaEntradaSale -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.fachada.GestionAcademicaFacade.enMemoria(GestionAcademicaFacade.java:36)
+	at uy.utec.apd.m3.consola.MenuConsolaTest.ejecutar(MenuConsolaTest.java:24)
+	at uy.utec.apd.m3.consola.MenuConsolaTest.siSeTerminaLaEntradaSale(MenuConsolaTest.java:80)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m3.consola.MenuConsolaTest.losErroresDeNegocioSeMuestranYElMenuSigue -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.fachada.GestionAcademicaFacade.enMemoria(GestionAcademicaFacade.java:36)
+	at uy.utec.apd.m3.consola.MenuConsolaTest.ejecutar(MenuConsolaTest.java:24)
+	at uy.utec.apd.m3.consola.MenuConsolaTest.losErroresDeNegocioSeMuestranYElMenuSigue(MenuConsolaTest.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m3.consola.MenuConsolaTest.altaYListadoDeEstudiantes -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.fachada.GestionAcademicaFacade.enMemoria(GestionAcademicaFacade.java:36)
+	at uy.utec.apd.m3.consola.MenuConsolaTest.ejecutar(MenuConsolaTest.java:24)
+	at uy.utec.apd.m3.consola.MenuConsolaTest.altaYListadoDeEstudiantes(MenuConsolaTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m3.consola.MenuConsolaTest.inscribirYVerInscriptos -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.fachada.GestionAcademicaFacade.enMemoria(GestionAcademicaFacade.java:36)
+	at uy.utec.apd.m3.consola.MenuConsolaTest.inscribirYVerInscriptos(MenuConsolaTest.java:53)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

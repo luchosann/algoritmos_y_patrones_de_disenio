@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m2.composite.CompositeTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! -- in uy.utec.apd.m2.composite.CompositeTest
+uy.utec.apd.m2.composite.CompositeTest.quitarActualizaLosTotales -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.composite.Departamento.agregar(Departamento.java:26)
+	at uy.utec.apd.m2.composite.CompositeTest.armarOrganigrama(CompositeTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.composite.CompositeTest.losMiembrosNoSePuedenModificarDesdeAfuera -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.composite.Departamento.agregar(Departamento.java:26)
+	at uy.utec.apd.m2.composite.CompositeTest.armarOrganigrama(CompositeTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.composite.CompositeTest.elCompuestoSumaRecursivamente -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.composite.Departamento.agregar(Departamento.java:26)
+	at uy.utec.apd.m2.composite.CompositeTest.armarOrganigrama(CompositeTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.composite.CompositeTest.buscaEnProfundidad -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.composite.Departamento.agregar(Departamento.java:26)
+	at uy.utec.apd.m2.composite.CompositeTest.armarOrganigrama(CompositeTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.composite.CompositeTest.departamentoVacio -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.composite.Departamento.agregar(Departamento.java:26)
+	at uy.utec.apd.m2.composite.CompositeTest.armarOrganigrama(CompositeTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.composite.CompositeTest.unaHojaSeComportaComoUnMiembroMas -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.composite.Departamento.agregar(Departamento.java:26)
+	at uy.utec.apd.m2.composite.CompositeTest.armarOrganigrama(CompositeTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.composite.CompositeTest.muestraElArbolConSangria -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.composite.Departamento.agregar(Departamento.java:26)
+	at uy.utec.apd.m2.composite.CompositeTest.armarOrganigrama(CompositeTest.java:18)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

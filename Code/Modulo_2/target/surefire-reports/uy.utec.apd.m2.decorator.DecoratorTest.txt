@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m2.decorator.DecoratorTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in uy.utec.apd.m2.decorator.DecoratorTest
+uy.utec.apd.m2.decorator.DecoratorTest.elOrdenDeLosDecoradoresImporta -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.decorator.TamanioGrande.costo(TamanioGrande.java:22)
+	at uy.utec.apd.m2.decorator.DecoratorTest.elOrdenDeLosDecoradoresImporta(DecoratorTest.java:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.decorator.DecoratorTest.sePuedeAplicarElMismoDecoradorDosVeces -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.decorator.ConCaramelo.descripcion(ConCaramelo.java:13)
+	at uy.utec.apd.m2.decorator.DecoratorTest.sePuedeAplicarElMismoDecoradorDosVeces(DecoratorTest.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.decorator.DecoratorTest.losDecoradoresSeApilan -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.decorator.ConCremaBatida.descripcion(ConCremaBatida.java:13)
+	at uy.utec.apd.m2.decorator.DecoratorTest.losDecoradoresSeApilan(DecoratorTest.java:19)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.decorator.DecoratorTest.unDecoradorAgregaDescripcionYCosto -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.decorator.ConLeche.descripcion(ConLeche.java:13)
+	at uy.utec.apd.m2.decorator.DecoratorTest.unDecoradorAgregaDescripcionYCosto(DecoratorTest.java:12)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

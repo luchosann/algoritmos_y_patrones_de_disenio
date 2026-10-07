@@ -1,0 +1,51 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m2.adapter.AdapterTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 4, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in uy.utec.apd.m2.adapter.AdapterTest
+uy.utec.apd.m2.adapter.AdapterTest.adaptaFahrenheitACelsius -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.adapter.AdaptadorFahrenheit.<init>(AdaptadorFahrenheit.java:14)
+	at uy.utec.apd.m2.adapter.AdapterTest.adaptaFahrenheitACelsius(AdapterTest.java:13)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.adapter.AdapterTest.elAdaptadorLeeElValorActualDelAdaptado -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.adapter.AdaptadorFahrenheit.<init>(AdaptadorFahrenheit.java:14)
+	at uy.utec.apd.m2.adapter.AdapterTest.elAdaptadorLeeElValorActualDelAdaptado(AdapterTest.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.adapter.AdapterTest.elMonitorTrabajaConCualquierSensor -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.adapter.AdaptadorFahrenheit.<init>(AdaptadorFahrenheit.java:14)
+	at uy.utec.apd.m2.adapter.AdapterTest.elMonitorTrabajaConCualquierSensor(AdapterTest.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.adapter.AdapterTest.adaptaKelvinACelsius -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.adapter.AdaptadorKelvin.<init>(AdaptadorKelvin.java:13)
+	at uy.utec.apd.m2.adapter.AdapterTest.adaptaKelvinACelsius(AdapterTest.java:29)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.adapter.AdapterTest.monitorVacio -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalStateException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at uy.utec.apd.m2.adapter.AdapterTest.monitorVacio(AdapterTest.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.adapter.MonitorTemperatura.promedioCelsius(MonitorTemperatura.java:21)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+

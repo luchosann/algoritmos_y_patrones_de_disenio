@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m5.problemas.ProblemasArbolesTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.046 s <<< FAILURE! -- in uy.utec.apd.m5.problemas.ProblemasArbolesTest
+uy.utec.apd.m5.problemas.ProblemasArbolesTest.espejoNoModificaElOriginal -- Time elapsed: 0.019 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.espejo(ProblemasArboles.java:61)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.espejoNoModificaElOriginal(ProblemasArbolesTest.java:112)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.problemas.ProblemasArbolesTest.ancestroComun -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.ancestroComunMasBajo(ProblemasArboles.java:29)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.ancestroComun(ProblemasArbolesTest.java:67)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.problemas.ProblemasArbolesTest.kEsimo -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.kEsimoMenor(ProblemasArboles.java:39)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.kEsimo(ProblemasArbolesTest.java:76)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.problemas.ProblemasArbolesTest.arbolBalanceadoDesdeArreglo -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.desdeArregloOrdenado(ProblemasArboles.java:55)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.arbolBalanceadoDesdeArreglo(ProblemasArbolesTest.java:96)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.problemas.ProblemasArbolesTest.valoresExtremos -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.esBSTValido(ProblemasArboles.java:20)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.valoresExtremos(ProblemasArbolesTest.java:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.problemas.ProblemasArbolesTest.bstInvalidoAunqueCadaNodoCumplaConSusHijos -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.esBSTValido(ProblemasArboles.java:20)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.bstInvalidoAunqueCadaNodoCumplaConSusHijos(ProblemasArbolesTest.java:56)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.problemas.ProblemasArbolesTest.bstValido -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.esBSTValido(ProblemasArboles.java:20)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.bstValido(ProblemasArbolesTest.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.problemas.ProblemasArbolesTest.caminoConSuma -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.existeCaminoConSuma(ProblemasArboles.java:45)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.caminoConSuma(ProblemasArbolesTest.java:86)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

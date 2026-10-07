@@ -1,0 +1,13 @@
+# Opcional: PostgreSQL para probar ProductoDAOJdbc "de verdad" (ver EJERCICIOS.md, ejercicio 6.4)
+services:
+  postgres:
+    image: postgres:16.2
+    container_name: apd_m2_postgres
+    environment:
+      POSTGRES_USER: usuario
+      POSTGRES_PASSWORD: contrasenia
+      POSTGRES_DB: tienda
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./src/main/resources/schema.sql:/docker-entrypoint-initdb.d/schema.sql

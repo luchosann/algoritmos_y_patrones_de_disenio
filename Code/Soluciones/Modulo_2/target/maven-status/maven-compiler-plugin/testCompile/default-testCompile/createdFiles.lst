@@ -1,0 +1,13 @@
+uy/utec/apd/m2/facade/TiendaFacadeTest.class
+uy/utec/apd/m2/strategy/EstrategiaEnvioTest.class
+uy/utec/apd/m2/proxy/ProxyTest.class
+uy/utec/apd/m2/decorator/DecoratorTest.class
+uy/utec/apd/m2/dao/ProductoDAOMemoriaTest.class
+uy/utec/apd/m2/observer/SubastaTest$1.class
+uy/utec/apd/m2/dao/ProductoDAOContractTest.class
+uy/utec/apd/m2/dao/ProductoServiceTest.class
+uy/utec/apd/m2/adapter/AdapterTest.class
+uy/utec/apd/m2/observer/SubastaTest.class
+uy/utec/apd/m2/observer/SubastaTest$Contador.class
+uy/utec/apd/m2/dao/ProductoDAOJdbcTest.class
+uy/utec/apd/m2/composite/CompositeTest.class

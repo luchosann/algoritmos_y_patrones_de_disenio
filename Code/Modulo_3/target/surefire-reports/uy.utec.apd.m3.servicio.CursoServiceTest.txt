@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m3.servicio.CursoServiceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 3, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! -- in uy.utec.apd.m3.servicio.CursoServiceTest
+uy.utec.apd.m3.servicio.CursoServiceTest.noPermiteCodigosRepetidos -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.servicio.CursoService.registrar(CursoService.java:30)
+	at uy.utec.apd.m3.servicio.CursoServiceTest.noPermiteCodigosRepetidos(CursoServiceTest.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m3.servicio.CursoServiceTest.normalizaElCodigo -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.servicio.CursoService.registrar(CursoService.java:30)
+	at uy.utec.apd.m3.servicio.CursoServiceTest.normalizaElCodigo(CursoServiceTest.java:23)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m3.servicio.CursoServiceTest.listaOrdenadoPorCodigo -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.servicio.CursoService.registrar(CursoService.java:30)
+	at uy.utec.apd.m3.servicio.CursoServiceTest.listaOrdenadoPorCodigo(CursoServiceTest.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m3.servicio.CursoServiceTest.validaciones -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <uy.utec.apd.m3.servicio.NegocioException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at uy.utec.apd.m3.servicio.CursoServiceTest.validaciones(CursoServiceTest.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.servicio.CursoService.registrar(CursoService.java:30)
+	at uy.utec.apd.m3.servicio.CursoServiceTest.lambda$validaciones$0(CursoServiceTest.java:32)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+

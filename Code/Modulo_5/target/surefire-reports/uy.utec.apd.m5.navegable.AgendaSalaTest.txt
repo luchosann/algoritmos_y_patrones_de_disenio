@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m5.navegable.AgendaSalaTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! -- in uy.utec.apd.m5.navegable.AgendaSalaTest
+uy.utec.apd.m5.navegable.AgendaSalaTest.empiezanEntre -- Time elapsed: 0.005 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.navegable.AgendaSala.reservar(AgendaSala.java:30)
+	at uy.utec.apd.m5.navegable.AgendaSalaTest.setUp(AgendaSalaTest.java:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.navegable.AgendaSalaTest.reservasPegadasNoSeSolapan -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.navegable.AgendaSala.reservar(AgendaSala.java:30)
+	at uy.utec.apd.m5.navegable.AgendaSalaTest.setUp(AgendaSalaTest.java:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.navegable.AgendaSalaTest.primerHuecoLibre -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.navegable.AgendaSala.reservar(AgendaSala.java:30)
+	at uy.utec.apd.m5.navegable.AgendaSalaTest.setUp(AgendaSalaTest.java:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.navegable.AgendaSalaTest.cancelar -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.navegable.AgendaSala.reservar(AgendaSala.java:30)
+	at uy.utec.apd.m5.navegable.AgendaSalaTest.setUp(AgendaSalaTest.java:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.navegable.AgendaSalaTest.enCursoYProxima -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.navegable.AgendaSala.reservar(AgendaSala.java:30)
+	at uy.utec.apd.m5.navegable.AgendaSalaTest.setUp(AgendaSalaTest.java:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.navegable.AgendaSalaTest.finDebeSerPosteriorAlInicio -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.navegable.AgendaSala.reservar(AgendaSala.java:30)
+	at uy.utec.apd.m5.navegable.AgendaSalaTest.setUp(AgendaSalaTest.java:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.navegable.AgendaSalaTest.rechazaSolapamientos -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.navegable.AgendaSala.reservar(AgendaSala.java:30)
+	at uy.utec.apd.m5.navegable.AgendaSalaTest.setUp(AgendaSalaTest.java:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

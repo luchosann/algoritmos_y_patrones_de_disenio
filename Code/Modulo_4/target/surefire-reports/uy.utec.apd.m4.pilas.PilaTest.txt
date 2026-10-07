@@ -1,0 +1,75 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m4.pilas.PilaTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 5, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! -- in uy.utec.apd.m4.pilas.PilaTest
+uy.utec.apd.m4.pilas.PilaTest.balanceo -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.pilas.Expresiones.estaBalanceado(Expresiones.java:18)
+	at uy.utec.apd.m4.pilas.PilaTest.balanceo(PilaTest.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.pilas.PilaTest.underflow -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <uy.utec.apd.m4.pilas.PilaVaciaException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at uy.utec.apd.m4.pilas.PilaTest.underflow(PilaTest.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.pilas.Pila.desapilar(Pila.java:30)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+uy.utec.apd.m4.pilas.PilaTest.lifo -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.pilas.Pila.estaVacia(Pila.java:41)
+	at uy.utec.apd.m4.pilas.PilaTest.lifo(PilaTest.java:12)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.pilas.PilaTest.infijaAPostfija -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.pilas.Expresiones.infijaAPostfija(Expresiones.java:40)
+	at uy.utec.apd.m4.pilas.PilaTest.infijaAPostfija(PilaTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.pilas.PilaTest.postfijaMalFormada -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at uy.utec.apd.m4.pilas.PilaTest.postfijaMalFormada(PilaTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.pilas.Expresiones.evaluarPostfija(Expresiones.java:30)
+	at uy.utec.apd.m4.pilas.PilaTest.lambda$postfijaMalFormada$0(PilaTest.java:52)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+uy.utec.apd.m4.pilas.PilaTest.postfija -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.pilas.Expresiones.evaluarPostfija(Expresiones.java:30)
+	at uy.utec.apd.m4.pilas.PilaTest.postfija(PilaTest.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.pilas.PilaTest.evaluarInfija -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.pilas.Expresiones.evaluar(Expresiones.java:46)
+	at uy.utec.apd.m4.pilas.PilaTest.evaluarInfija(PilaTest.java:67)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

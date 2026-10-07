@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m3.dao.CrudDAOMemoriaTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! -- in uy.utec.apd.m3.dao.CrudDAOMemoriaTest
+uy.utec.apd.m3.dao.CrudDAOMemoriaTest.crudCompleto -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.dao.memoria.CrudDAOMemoria.guardar(CrudDAOMemoria.java:29)
+	at uy.utec.apd.m3.dao.CrudDAOMemoriaTest.crudCompleto(CrudDAOMemoriaTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m3.dao.CrudDAOMemoriaTest.listarDevuelveUnaCopia -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.dao.memoria.CrudDAOMemoria.guardar(CrudDAOMemoria.java:29)
+	at uy.utec.apd.m3.dao.CrudDAOMemoriaTest.listarDevuelveUnaCopia(CrudDAOMemoriaTest.java:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m3.dao.CrudDAOMemoriaTest.funcionaConCualquierTipo -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.dao.memoria.CrudDAOMemoria.guardar(CrudDAOMemoria.java:29)
+	at uy.utec.apd.m3.dao.CrudDAOMemoriaTest.funcionaConCualquierTipo(CrudDAOMemoriaTest.java:19)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m3.dao.CrudDAOMemoriaTest.mantieneElOrdenDeInsercion -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.dao.memoria.CrudDAOMemoria.guardar(CrudDAOMemoria.java:29)
+	at uy.utec.apd.m3.dao.CrudDAOMemoriaTest.mantieneElOrdenDeInsercion(CrudDAOMemoriaTest.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m3.dao.CrudDAOMemoriaTest.noPermiteDuplicados -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.dao.memoria.CrudDAOMemoria.guardar(CrudDAOMemoria.java:29)
+	at uy.utec.apd.m3.dao.CrudDAOMemoriaTest.noPermiteDuplicados(CrudDAOMemoriaTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m4.listas.ListaCircularTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! -- in uy.utec.apd.m4.listas.ListaCircularTest
+uy.utec.apd.m4.listas.ListaCircularTest.eliminarActual -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.listas.ListaCircular.agregar(ListaCircular.java:31)
+	at uy.utec.apd.m4.listas.ListaCircularTest.eliminarActual(ListaCircularTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.listas.ListaCircularTest.josefo -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.listas.Josefo.ordenDeEliminacion(Josefo.java:21)
+	at uy.utec.apd.m4.listas.ListaCircularTest.josefo(ListaCircularTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.listas.ListaCircularTest.agregarInsertaAntesDelActual -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.listas.ListaCircular.agregar(ListaCircular.java:31)
+	at uy.utec.apd.m4.listas.ListaCircularTest.agregarInsertaAntesDelActual(ListaCircularTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.listas.ListaCircularTest.agregarYAvanzar -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.listas.ListaCircular.agregar(ListaCircular.java:31)
+	at uy.utec.apd.m4.listas.ListaCircularTest.agregarYAvanzar(ListaCircularTest.java:15)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

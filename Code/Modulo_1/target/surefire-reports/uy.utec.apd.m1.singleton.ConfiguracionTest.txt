@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m1.singleton.ConfiguracionTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! -- in uy.utec.apd.m1.singleton.ConfiguracionTest
+uy.utec.apd.m1.singleton.ConfiguracionTest.variosHilosAlMismoTiempoObtienenLaMismaInstancia -- Time elapsed: 0.006 s <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.UnsupportedOperationException: TODO
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:124)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:207)
+	at uy.utec.apd.m1.singleton.ConfiguracionTest.variosHilosAlMismoTiempoObtienenLaMismaInstancia(ConfiguracionTest.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m1.singleton.Configuracion.getInstancia(Configuracion.java:34)
+	at uy.utec.apd.m1.singleton.ConfiguracionTest.lambda$variosHilosAlMismoTiempoObtienenLaMismaInstancia$0(ConfiguracionTest.java:36)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+
+uy.utec.apd.m1.singleton.ConfiguracionTest.siempreDevuelveLaMismaInstancia -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m1.singleton.Configuracion.getInstancia(Configuracion.java:34)
+	at uy.utec.apd.m1.singleton.ConfiguracionTest.siempreDevuelveLaMismaInstancia(ConfiguracionTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m1.singleton.ConfiguracionTest.cargaValoresPorDefecto -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m1.singleton.Configuracion.getInstancia(Configuracion.java:34)
+	at uy.utec.apd.m1.singleton.ConfiguracionTest.cargaValoresPorDefecto(ConfiguracionTest.java:75)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m1.singleton.ConfiguracionTest.elEstadoSeComparteEntreReferencias -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m1.singleton.Configuracion.getInstancia(Configuracion.java:34)
+	at uy.utec.apd.m1.singleton.ConfiguracionTest.elEstadoSeComparteEntreReferencias(ConfiguracionTest.java:67)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

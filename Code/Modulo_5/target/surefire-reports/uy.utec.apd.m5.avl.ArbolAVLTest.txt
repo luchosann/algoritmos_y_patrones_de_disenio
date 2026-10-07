@@ -1,0 +1,66 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m5.avl.ArbolAVLTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.013 s <<< FAILURE! -- in uy.utec.apd.m5.avl.ArbolAVLTest
+uy.utec.apd.m5.avl.ArbolAVLTest.casoDerechaIzquierda -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.avl.ArbolAVL.insertar(ArbolAVL.java:37)
+	at uy.utec.apd.m5.avl.ArbolAVLTest.con(ArbolAVLTest.java:15)
+	at uy.utec.apd.m5.avl.ArbolAVLTest.casoDerechaIzquierda(ArbolAVLTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.avl.ArbolAVLTest.duplicadosYBusqueda -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.avl.ArbolAVL.insertar(ArbolAVL.java:37)
+	at uy.utec.apd.m5.avl.ArbolAVLTest.con(ArbolAVLTest.java:15)
+	at uy.utec.apd.m5.avl.ArbolAVLTest.duplicadosYBusqueda(ArbolAVLTest.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.avl.ArbolAVLTest.casoDerechaDerecha -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.avl.ArbolAVL.insertar(ArbolAVL.java:37)
+	at uy.utec.apd.m5.avl.ArbolAVLTest.con(ArbolAVLTest.java:15)
+	at uy.utec.apd.m5.avl.ArbolAVLTest.casoDerechaDerecha(ArbolAVLTest.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.avl.ArbolAVLTest.casoIzquierdaIzquierda -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.avl.ArbolAVL.insertar(ArbolAVL.java:37)
+	at uy.utec.apd.m5.avl.ArbolAVLTest.con(ArbolAVLTest.java:15)
+	at uy.utec.apd.m5.avl.ArbolAVLTest.casoIzquierdaIzquierda(ArbolAVLTest.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.avl.ArbolAVLTest.insertarOrdenadoNoDegenera -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.avl.ArbolAVL.insertar(ArbolAVL.java:37)
+	at uy.utec.apd.m5.avl.ArbolAVLTest.insertarOrdenadoNoDegenera(ArbolAVLTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.avl.ArbolAVLTest.ejemploDelTeorico -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.avl.ArbolAVL.insertar(ArbolAVL.java:37)
+	at uy.utec.apd.m5.avl.ArbolAVLTest.con(ArbolAVLTest.java:15)
+	at uy.utec.apd.m5.avl.ArbolAVLTest.ejemploDelTeorico(ArbolAVLTest.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m5.avl.ArbolAVLTest.casoIzquierdaDerecha -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.avl.ArbolAVL.insertar(ArbolAVL.java:37)
+	at uy.utec.apd.m5.avl.ArbolAVLTest.con(ArbolAVLTest.java:15)
+	at uy.utec.apd.m5.avl.ArbolAVLTest.casoIzquierdaDerecha(ArbolAVLTest.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

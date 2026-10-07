@@ -1,0 +1,11 @@
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_2/src/test/java/uy/utec/apd/m2/adapter/AdapterTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_2/src/test/java/uy/utec/apd/m2/composite/CompositeTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_2/src/test/java/uy/utec/apd/m2/dao/ProductoDAOContractTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_2/src/test/java/uy/utec/apd/m2/dao/ProductoDAOJdbcTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_2/src/test/java/uy/utec/apd/m2/dao/ProductoDAOMemoriaTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_2/src/test/java/uy/utec/apd/m2/dao/ProductoServiceTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_2/src/test/java/uy/utec/apd/m2/decorator/DecoratorTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_2/src/test/java/uy/utec/apd/m2/facade/TiendaFacadeTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_2/src/test/java/uy/utec/apd/m2/observer/SubastaTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_2/src/test/java/uy/utec/apd/m2/proxy/ProxyTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_2/src/test/java/uy/utec/apd/m2/strategy/EstrategiaEnvioTest.java

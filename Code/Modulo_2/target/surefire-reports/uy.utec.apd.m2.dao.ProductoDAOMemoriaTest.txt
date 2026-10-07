@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m2.dao.ProductoDAOMemoriaTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.013 s <<< FAILURE! -- in uy.utec.apd.m2.dao.ProductoDAOMemoriaTest
+uy.utec.apd.m2.dao.ProductoDAOMemoriaTest.insertarYBuscarPorId -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.dao.ProductoDAOMemoria.insertar(ProductoDAOMemoria.java:21)
+	at uy.utec.apd.m2.dao.ProductoDAOContractTest.insertarYBuscarPorId(ProductoDAOContractTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.dao.ProductoDAOMemoriaTest.modificarUnObjetoAfueraNoCambiaLoPersistido -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.dao.ProductoDAOMemoria.insertar(ProductoDAOMemoria.java:21)
+	at uy.utec.apd.m2.dao.ProductoDAOContractTest.modificarUnObjetoAfueraNoCambiaLoPersistido(ProductoDAOContractTest.java:75)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.dao.ProductoDAOMemoriaTest.actualizar -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.dao.ProductoDAOMemoria.insertar(ProductoDAOMemoria.java:21)
+	at uy.utec.apd.m2.dao.ProductoDAOContractTest.actualizar(ProductoDAOContractTest.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.dao.ProductoDAOMemoriaTest.insertarDuplicadoFalla -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.dao.ProductoDAOMemoria.insertar(ProductoDAOMemoria.java:21)
+	at uy.utec.apd.m2.dao.ProductoDAOContractTest.insertarDuplicadoFalla(ProductoDAOContractTest.java:35)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.dao.ProductoDAOMemoriaTest.eliminar -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.dao.ProductoDAOMemoria.insertar(ProductoDAOMemoria.java:21)
+	at uy.utec.apd.m2.dao.ProductoDAOContractTest.eliminar(ProductoDAOContractTest.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.dao.ProductoDAOMemoriaTest.listarTodosOrdenadoPorId -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.dao.ProductoDAOMemoria.insertar(ProductoDAOMemoria.java:21)
+	at uy.utec.apd.m2.dao.ProductoDAOContractTest.listarTodosOrdenadoPorId(ProductoDAOContractTest.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.dao.ProductoDAOMemoriaTest.buscarPorNombreSinDistinguirMayusculas -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.dao.ProductoDAOMemoria.insertar(ProductoDAOMemoria.java:21)
+	at uy.utec.apd.m2.dao.ProductoDAOContractTest.buscarPorNombreSinDistinguirMayusculas(ProductoDAOContractTest.java:65)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

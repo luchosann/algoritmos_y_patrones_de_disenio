@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m1.abstractfactory.FabricaUITest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! -- in uy.utec.apd.m1.abstractfactory.FabricaUITest
+uy.utec.apd.m1.abstractfactory.FabricaUITest.formularioVacioRenderizaVacio -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m1.abstractfactory.Formulario.render(Formulario.java:38)
+	at uy.utec.apd.m1.abstractfactory.FabricaUITest.formularioVacioRenderizaVacio(FabricaUITest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m1.abstractfactory.FabricaUITest.cambiarLaFabricaCambiaTodoElFormulario -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m1.abstractfactory.FabricaUI.segunPreferencia(FabricaUI.java:15)
+	at uy.utec.apd.m1.abstractfactory.FabricaUITest.cambiarLaFabricaCambiaTodoElFormulario(FabricaUITest.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m1.abstractfactory.FabricaUITest.laFabricaOscuraCreaComponentesOscuros -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m1.abstractfactory.FabricaOscura.crearBoton(FabricaOscura.java:9)
+	at uy.utec.apd.m1.abstractfactory.FabricaUITest.laFabricaOscuraCreaComponentesOscuros(FabricaUITest.java:19)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m1.abstractfactory.FabricaUITest.elFormularioNoMezclaFamilias -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m1.abstractfactory.Formulario.agregarCampo(Formulario.java:22)
+	at uy.utec.apd.m1.abstractfactory.FabricaUITest.elFormularioNoMezclaFamilias(FabricaUITest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m1.abstractfactory.FabricaUITest.segunPreferenciaDevuelveLaFabricaAdecuada -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m1.abstractfactory.FabricaUI.segunPreferencia(FabricaUI.java:15)
+	at uy.utec.apd.m1.abstractfactory.FabricaUITest.segunPreferenciaDevuelveLaFabricaAdecuada(FabricaUITest.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m1.abstractfactory.FabricaUITest.laFabricaClaraCreaComponentesClaros -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m1.abstractfactory.FabricaClara.crearBoton(FabricaClara.java:9)
+	at uy.utec.apd.m1.abstractfactory.FabricaUITest.laFabricaClaraCreaComponentesClaros(FabricaUITest.java:12)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

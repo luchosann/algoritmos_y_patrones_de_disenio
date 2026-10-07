@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m2.facade.TiendaFacadeTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! -- in uy.utec.apd.m2.facade.TiendaFacadeTest
+uy.utec.apd.m2.facade.TiendaFacadeTest.pagoRechazadoLiberaElStock -- Time elapsed: 0.021 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.facade.TiendaFacade.comprar(TiendaFacade.java:36)
+	at uy.utec.apd.m2.facade.TiendaFacadeTest.pagoRechazadoLiberaElStock(TiendaFacadeTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.facade.TiendaFacadeTest.validacionesPrevias -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.facade.TiendaFacade.comprar(TiendaFacade.java:36)
+	at uy.utec.apd.m2.facade.TiendaFacadeTest.validacionesPrevias(TiendaFacadeTest.java:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.facade.TiendaFacadeTest.sinStockNoCobraNiEnvia -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.facade.TiendaFacade.comprar(TiendaFacade.java:36)
+	at uy.utec.apd.m2.facade.TiendaFacadeTest.sinStockNoCobraNiEnvia(TiendaFacadeTest.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.facade.TiendaFacadeTest.compraExitosa -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.facade.TiendaFacade.comprar(TiendaFacade.java:36)
+	at uy.utec.apd.m2.facade.TiendaFacadeTest.compraExitosa(TiendaFacadeTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.facade.TiendaFacadeTest.variasComprasGeneranCodigosDistintos -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.facade.TiendaFacade.comprar(TiendaFacade.java:36)
+	at uy.utec.apd.m2.facade.TiendaFacadeTest.variasComprasGeneranCodigosDistintos(TiendaFacadeTest.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

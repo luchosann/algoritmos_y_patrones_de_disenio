@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="uy.utec.apd.m5.problemas.ProblemasArbolesTest" time="0.046" tests="8" errors="8" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Modulo_5/target/test-classes:/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Modulo_5/target/classes:/home/luchosan/.m2/repository/org/junit/jupiter/junit-jupiter/5.13.4/junit-jupiter-5.13.4.jar:/home/luchosan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.13.4/junit-jupiter-api-5.13.4.jar:/home/luchosan/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/luchosan/.m2/repository/org/junit/platform/junit-platform-commons/1.13.4/junit-platform-commons-1.13.4.jar:/home/luchosan/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/luchosan/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.13.4/junit-jupiter-params-5.13.4.jar:/home/luchosan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.13.4/junit-jupiter-engine-5.13.4.jar:/home/luchosan/.m2/repository/org/junit/platform/junit-platform-engine/1.13.4/junit-platform-engine-1.13.4.jar:"/>
+    <property name="java.vm.vendor" value="Arch Linux"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.org/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-26-openjdk/lib"/>
+    <property name="sun.java.command" value="/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Modulo_5/target/surefire/surefirebooter-20260928135043458_3.jar /home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Modulo_5/target/surefire 2026-09-28T13-50-43_389-jvmRun1 surefire-20260928135043458_1tmp surefire_0-20260928135043458_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Modulo_5/target/test-classes:/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Modulo_5/target/classes:/home/luchosan/.m2/repository/org/junit/jupiter/junit-jupiter/5.13.4/junit-jupiter-5.13.4.jar:/home/luchosan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.13.4/junit-jupiter-api-5.13.4.jar:/home/luchosan/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/luchosan/.m2/repository/org/junit/platform/junit-platform-commons/1.13.4/junit-platform-commons-1.13.4.jar:/home/luchosan/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/luchosan/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.13.4/junit-jupiter-params-5.13.4.jar:/home/luchosan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.13.4/junit-jupiter-engine-5.13.4.jar:/home/luchosan/.m2/repository/org/junit/platform/junit-platform-engine/1.13.4/junit-platform-engine-1.13.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/luchosan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-07-21"/>
+    <property name="java.home" value="/usr/lib/jvm/java-26-openjdk"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Modulo_5"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Modulo_5/target/surefire/surefirebooter-20260928135043458_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="26.0.2"/>
+    <property name="user.name" value="luchosan"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="7.1.6-arch1-1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/luchosan/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="26.0.2"/>
+    <property name="user.dir" value="/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Modulo_5"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Arch Linux"/>
+    <property name="java.vm.version" value="26.0.2"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="espejoNoModificaElOriginal" classname="uy.utec.apd.m5.problemas.ProblemasArbolesTest" time="0.019">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.espejo(ProblemasArboles.java:61)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.espejoNoModificaElOriginal(ProblemasArbolesTest.java:112)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="ancestroComun" classname="uy.utec.apd.m5.problemas.ProblemasArbolesTest" time="0.001">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.ancestroComunMasBajo(ProblemasArboles.java:29)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.ancestroComun(ProblemasArbolesTest.java:67)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="kEsimo" classname="uy.utec.apd.m5.problemas.ProblemasArbolesTest" time="0.002">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.kEsimoMenor(ProblemasArboles.java:39)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.kEsimo(ProblemasArbolesTest.java:76)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="arbolBalanceadoDesdeArreglo" classname="uy.utec.apd.m5.problemas.ProblemasArbolesTest" time="0.001">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.desdeArregloOrdenado(ProblemasArboles.java:55)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.arbolBalanceadoDesdeArreglo(ProblemasArbolesTest.java:96)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="valoresExtremos" classname="uy.utec.apd.m5.problemas.ProblemasArbolesTest" time="0.001">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.esBSTValido(ProblemasArboles.java:20)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.valoresExtremos(ProblemasArbolesTest.java:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="bstInvalidoAunqueCadaNodoCumplaConSusHijos" classname="uy.utec.apd.m5.problemas.ProblemasArbolesTest" time="0.001">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.esBSTValido(ProblemasArboles.java:20)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.bstInvalidoAunqueCadaNodoCumplaConSusHijos(ProblemasArbolesTest.java:56)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="bstValido" classname="uy.utec.apd.m5.problemas.ProblemasArbolesTest" time="0.001">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.esBSTValido(ProblemasArboles.java:20)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.bstValido(ProblemasArbolesTest.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+  <testcase name="caminoConSuma" classname="uy.utec.apd.m5.problemas.ProblemasArbolesTest" time="0.001">
+    <error message="TODO" type="java.lang.UnsupportedOperationException"><![CDATA[java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m5.problemas.ProblemasArboles.existeCaminoConSuma(ProblemasArboles.java:45)
+	at uy.utec.apd.m5.problemas.ProblemasArbolesTest.caminoConSuma(ProblemasArbolesTest.java:86)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+]]></error>
+  </testcase>
+</testsuite>

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m4.pilas.EditorTextoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! -- in uy.utec.apd.m4.pilas.EditorTextoTest
+uy.utec.apd.m4.pilas.EditorTextoTest.deshacerYRehacer -- Time elapsed: 0.017 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.pilas.EditorTexto.escribir(EditorTexto.java:18)
+	at uy.utec.apd.m4.pilas.EditorTextoTest.deshacerYRehacer(EditorTextoTest.java:12)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.pilas.EditorTextoTest.limites -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.pilas.EditorTexto.deshacer(EditorTexto.java:30)
+	at uy.utec.apd.m4.pilas.EditorTextoTest.limites(EditorTextoTest.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.pilas.EditorTextoTest.unaAccionNuevaBorraElHistorialDeRehacer -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.pilas.EditorTexto.escribir(EditorTexto.java:18)
+	at uy.utec.apd.m4.pilas.EditorTextoTest.unaAccionNuevaBorraElHistorialDeRehacer(EditorTextoTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

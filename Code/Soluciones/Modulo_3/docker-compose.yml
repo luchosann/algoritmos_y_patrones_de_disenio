@@ -1,0 +1,13 @@
+# Opcional: PostgreSQL para el ejercicio 7 (DAOs JDBC). Ver EJERCICIOS.md
+services:
+  postgres:
+    image: postgres:16.2
+    container_name: apd_m3_postgres
+    environment:
+      POSTGRES_USER: usuario
+      POSTGRES_PASSWORD: contrasenia
+      POSTGRES_DB: academia
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./src/main/resources/schema.sql:/docker-entrypoint-initdb.d/schema.sql

@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m4.hash.TablaHashTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! -- in uy.utec.apd.m4.hash.TablaHashTest
+uy.utec.apd.m4.hash.TablaHashTest.operacionesBasicas -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.hash.TablaHash.poner(TablaHash.java:45)
+	at uy.utec.apd.m4.hash.TablaHashTest.operacionesBasicas(TablaHashTest.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.hash.TablaHashTest.ponerReemplazaYDevuelveElAnterior -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.hash.TablaHash.poner(TablaHash.java:45)
+	at uy.utec.apd.m4.hash.TablaHashTest.ponerReemplazaYDevuelveElAnterior(TablaHashTest.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.hash.TablaHashTest.secuenciaAleatoriaContraHashMap -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.hash.TablaHash.obtener(TablaHash.java:51)
+	at uy.utec.apd.m4.hash.TablaHashTest.secuenciaAleatoriaContraHashMap(TablaHashTest.java:112)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.hash.TablaHashTest.redimensionaSegunElFactorDeCarga -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.hash.TablaHash.poner(TablaHash.java:45)
+	at uy.utec.apd.m4.hash.TablaHashTest.redimensionaSegunElFactorDeCarga(TablaHashTest.java:92)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.hash.TablaHashTest.eliminar -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.hash.TablaHash.poner(TablaHash.java:45)
+	at uy.utec.apd.m4.hash.TablaHashTest.eliminar(TablaHashTest.java:47)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.hash.TablaHashTest.valoresNullSonValidos -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.hash.TablaHash.poner(TablaHash.java:45)
+	at uy.utec.apd.m4.hash.TablaHashTest.valoresNullSonValidos(TablaHashTest.java:56)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.hash.TablaHashTest.manejaColisiones -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.hash.TablaHash.poner(TablaHash.java:45)
+	at uy.utec.apd.m4.hash.TablaHashTest.manejaColisiones(TablaHashTest.java:66)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.hash.TablaHashTest.hashCodesNegativos -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.hash.TablaHash.poner(TablaHash.java:45)
+	at uy.utec.apd.m4.hash.TablaHashTest.hashCodesNegativos(TablaHashTest.java:81)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

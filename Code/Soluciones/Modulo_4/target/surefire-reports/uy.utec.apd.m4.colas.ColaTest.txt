@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m4.colas.ColaTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 s -- in uy.utec.apd.m4.colas.ColaTest

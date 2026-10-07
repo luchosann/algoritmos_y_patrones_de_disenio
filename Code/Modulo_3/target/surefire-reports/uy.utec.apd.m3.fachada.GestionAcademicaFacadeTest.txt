@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m3.fachada.GestionAcademicaFacadeTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! -- in uy.utec.apd.m3.fachada.GestionAcademicaFacadeTest
+uy.utec.apd.m3.fachada.GestionAcademicaFacadeTest.flujoCompleto -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.fachada.GestionAcademicaFacade.enMemoria(GestionAcademicaFacade.java:36)
+	at uy.utec.apd.m3.fachada.GestionAcademicaFacadeTest.flujoCompleto(GestionAcademicaFacadeTest.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m3.fachada.GestionAcademicaFacadeTest.cadaFachadaEsIndependiente -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.fachada.GestionAcademicaFacade.enMemoria(GestionAcademicaFacade.java:36)
+	at uy.utec.apd.m3.fachada.GestionAcademicaFacadeTest.cadaFachadaEsIndependiente(GestionAcademicaFacadeTest.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

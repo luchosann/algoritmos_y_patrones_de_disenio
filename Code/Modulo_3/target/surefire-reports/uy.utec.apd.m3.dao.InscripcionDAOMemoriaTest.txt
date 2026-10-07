@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m3.dao.InscripcionDAOMemoriaTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! -- in uy.utec.apd.m3.dao.InscripcionDAOMemoriaTest
+uy.utec.apd.m3.dao.InscripcionDAOMemoriaTest.eliminaYRechazaDuplicados -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.dao.memoria.InscripcionDAOMemoria.guardar(InscripcionDAOMemoria.java:16)
+	at uy.utec.apd.m3.dao.InscripcionDAOMemoriaTest.eliminaYRechazaDuplicados(InscripcionDAOMemoriaTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m3.dao.InscripcionDAOMemoriaTest.guardaYConsulta -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m3.dao.memoria.InscripcionDAOMemoria.guardar(InscripcionDAOMemoria.java:16)
+	at uy.utec.apd.m3.dao.InscripcionDAOMemoriaTest.guardaYConsulta(InscripcionDAOMemoriaTest.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

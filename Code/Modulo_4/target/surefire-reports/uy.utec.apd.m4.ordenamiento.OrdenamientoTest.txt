@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m4.ordenamiento.OrdenamientoTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.018 s <<< FAILURE! -- in uy.utec.apd.m4.ordenamiento.OrdenamientoTest
+uy.utec.apd.m4.ordenamiento.OrdenamientoTest.cadaAlgoritmoOrdenaCorrectamente()[1] -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.ordenamiento.Ordenamiento.seleccion(Ordenamiento.java:19)
+	at uy.utec.apd.m4.ordenamiento.OrdenamientoTest.lambda$cadaAlgoritmoOrdenaCorrectamente$1(OrdenamientoTest.java:51)
+	at java.base/java.util.Optional.ifPresent(Optional.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.ordenamiento.OrdenamientoTest.cadaAlgoritmoOrdenaCorrectamente()[2] -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.ordenamiento.Ordenamiento.mergeSort(Ordenamiento.java:31)
+	at uy.utec.apd.m4.ordenamiento.OrdenamientoTest.lambda$cadaAlgoritmoOrdenaCorrectamente$1(OrdenamientoTest.java:51)
+	at java.base/java.util.Optional.ifPresent(Optional.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.ordenamiento.OrdenamientoTest.cadaAlgoritmoOrdenaCorrectamente()[3] -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.ordenamiento.Ordenamiento.heapSort(Ordenamiento.java:47)
+	at uy.utec.apd.m4.ordenamiento.OrdenamientoTest.lambda$cadaAlgoritmoOrdenaCorrectamente$1(OrdenamientoTest.java:51)
+	at java.base/java.util.Optional.ifPresent(Optional.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.ordenamiento.OrdenamientoTest.cadaAlgoritmoOrdenaCorrectamente()[4] -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.ordenamiento.Ordenamiento.insercion(Ordenamiento.java:25)
+	at uy.utec.apd.m4.ordenamiento.OrdenamientoTest.lambda$cadaAlgoritmoOrdenaCorrectamente$1(OrdenamientoTest.java:51)
+	at java.base/java.util.Optional.ifPresent(Optional.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.ordenamiento.OrdenamientoTest.cadaAlgoritmoOrdenaCorrectamente()[5] -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.ordenamiento.Ordenamiento.quickSort(Ordenamiento.java:37)
+	at uy.utec.apd.m4.ordenamiento.OrdenamientoTest.lambda$cadaAlgoritmoOrdenaCorrectamente$1(OrdenamientoTest.java:51)
+	at java.base/java.util.Optional.ifPresent(Optional.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.ordenamiento.OrdenamientoTest.mergeSortEstableConservaElOrdenDeLosIguales -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.ordenamiento.Ordenamiento.mergeSortEstable(Ordenamiento.java:56)
+	at uy.utec.apd.m4.ordenamiento.OrdenamientoTest.mergeSortEstableConservaElOrdenDeLosIguales(OrdenamientoTest.java:65)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.ordenamiento.OrdenamientoTest.mergeSortEstableConComparadorInverso -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.ordenamiento.Ordenamiento.mergeSortEstable(Ordenamiento.java:56)
+	at uy.utec.apd.m4.ordenamiento.OrdenamientoTest.mergeSortEstableConComparadorInverso(OrdenamientoTest.java:73)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

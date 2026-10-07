@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m3.util.ValidadorCITest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s -- in uy.utec.apd.m3.util.ValidadorCITest

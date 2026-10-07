@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m4.hash.ProblemasHashTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.010 s <<< FAILURE! -- in uy.utec.apd.m4.hash.ProblemasHashTest
+uy.utec.apd.m4.hash.ProblemasHashTest.anagramas -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.hash.ProblemasHash.sonAnagramas(ProblemasHash.java:43)
+	at uy.utec.apd.m4.hash.ProblemasHashTest.anagramas(ProblemasHashTest.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.hash.ProblemasHashTest.frecuencias -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.hash.ProblemasHash.frecuenciaPalabras(ProblemasHash.java:21)
+	at uy.utec.apd.m4.hash.ProblemasHashTest.frecuencias(ProblemasHashTest.java:15)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.hash.ProblemasHashTest.primerNoRepetido -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.hash.ProblemasHash.primerNoRepetido(ProblemasHash.java:37)
+	at uy.utec.apd.m4.hash.ProblemasHashTest.primerNoRepetido(ProblemasHashTest.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.hash.ProblemasHashTest.dosSumaEsLineal -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.hash.ProblemasHash.dosSuma(ProblemasHash.java:31)
+	at uy.utec.apd.m4.hash.ProblemasHashTest.dosSumaEsLineal(ProblemasHashTest.java:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m4.hash.ProblemasHashTest.dosSuma -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m4.hash.ProblemasHash.dosSuma(ProblemasHash.java:31)
+	at uy.utec.apd.m4.hash.ProblemasHashTest.dosSuma(ProblemasHashTest.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

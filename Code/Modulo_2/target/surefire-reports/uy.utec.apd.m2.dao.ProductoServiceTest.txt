@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: uy.utec.apd.m2.dao.ProductoServiceTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 6, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! -- in uy.utec.apd.m2.dao.ProductoServiceTest
+uy.utec.apd.m2.dao.ProductoServiceTest.aplicaDescuentoYRedondea -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.dao.ProductoService.registrar(ProductoService.java:23)
+	at uy.utec.apd.m2.dao.ProductoServiceTest.aplicaDescuentoYRedondea(ProductoServiceTest.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.dao.ProductoServiceTest.registraProductosValidos -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.dao.ProductoService.registrar(ProductoService.java:23)
+	at uy.utec.apd.m2.dao.ProductoServiceTest.registraProductosValidos(ProductoServiceTest.java:23)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.dao.ProductoServiceTest.valorInventario -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.dao.ProductoService.valorInventario(ProductoService.java:53)
+	at uy.utec.apd.m2.dao.ProductoServiceTest.valorInventario(ProductoServiceTest.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.dao.ProductoServiceTest.rechazaProductosInvalidos -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at uy.utec.apd.m2.dao.ProductoServiceTest.rechazaProductosInvalidos(ProductoServiceTest.java:29)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.dao.ProductoService.registrar(ProductoService.java:23)
+	at uy.utec.apd.m2.dao.ProductoServiceTest.lambda$rechazaProductosInvalidos$0(ProductoServiceTest.java:29)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+uy.utec.apd.m2.dao.ProductoServiceTest.descuentoInvalido -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.dao.ProductoService.registrar(ProductoService.java:23)
+	at uy.utec.apd.m2.dao.ProductoServiceTest.descuentoInvalido(ProductoServiceTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.dao.ProductoServiceTest.venderDescuentaStock -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.dao.ProductoService.registrar(ProductoService.java:23)
+	at uy.utec.apd.m2.dao.ProductoServiceTest.venderDescuentaStock(ProductoServiceTest.java:60)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+uy.utec.apd.m2.dao.ProductoServiceTest.rechazaIdDuplicadoConIllegalArgument -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: TODO
+	at uy.utec.apd.m2.dao.ProductoService.registrar(ProductoService.java:23)
+	at uy.utec.apd.m2.dao.ProductoServiceTest.rechazaIdDuplicadoConIllegalArgument(ProductoServiceTest.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+

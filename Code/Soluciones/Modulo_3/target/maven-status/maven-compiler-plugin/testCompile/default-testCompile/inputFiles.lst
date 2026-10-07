@@ -1,0 +1,8 @@
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_3/src/test/java/uy/utec/apd/m3/consola/MenuConsolaTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_3/src/test/java/uy/utec/apd/m3/dao/CrudDAOMemoriaTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_3/src/test/java/uy/utec/apd/m3/dao/InscripcionDAOMemoriaTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_3/src/test/java/uy/utec/apd/m3/fachada/GestionAcademicaFacadeTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_3/src/test/java/uy/utec/apd/m3/servicio/CursoServiceTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_3/src/test/java/uy/utec/apd/m3/servicio/EstudianteServiceTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_3/src/test/java/uy/utec/apd/m3/servicio/InscripcionServiceTest.java
+/home/luchosan/Documents/02_estudio/UTEC/2026-09-28-algoritmos-y-patrones-de-disenio/Code/Soluciones/Modulo_3/src/test/java/uy/utec/apd/m3/util/ValidadorCITest.java
